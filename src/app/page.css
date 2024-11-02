@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .scrolldown {
     --color: white;
     --sizeX: 30px;
