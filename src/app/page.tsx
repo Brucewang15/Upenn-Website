@@ -6,9 +6,7 @@ import {GlareCard} from "@/components/ui/glare-card";
 import Header from "../components/docs/Header";
 
 import { motion } from "framer-motion";
-import {EvervaultCard, Icon } from "@/components/ui/evervault-card";
-import {LampContainer} from "@/components/ui/lamp";
-import {cn} from "@/lib/utils";  // Adjust the import path if necessary
+import {EvervaultCard } from "@/components/ui/evervault-card";
 
 export default function Home() {
 
