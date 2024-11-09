@@ -1,6 +1,7 @@
 "use client"
 
 import './page.css'
+import React from 'react'
 import Header from "../components/docs/Header";
 import FrontPage from '../components/docs/FrontPage';
 import TeamMembers from '../components/docs/TeamMembers';
