@@ -38,6 +38,7 @@ const TeamMembers = () => {
 
                         {teamMembers.map((member) => (
                             <div
+                                key={member.name}
                                 className="border border-white/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-sm mx-auto p-4 relative max-h-[20%]">
                                 <EvervaultCard className='Test' text={member.photo ? member.photo : 'https://cdn-icons-png.flaticon.com/512/8847/8847419.png'} />
                                 <h1 className="text-white">{member.name}</h1>
