@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import PennLogo from '../../assets/penn.png'
+import PennLogo from '/public/upenn-logo.png'
 
 const Header = () => {
     const navItems = [

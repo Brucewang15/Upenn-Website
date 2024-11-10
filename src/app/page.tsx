@@ -3,7 +3,7 @@
 import './page.css'
 import React from 'react'
 import Header from "../components/docs/Header";
-import FrontPage from '../components/docs/FrontPage';
+import Hero from '../components/docs/Hero';
 import TeamMembers from '../components/docs/TeamMembers';
 import AboutUs from '../components/docs/AboutUs';
     
@@ -15,7 +15,7 @@ export default function Home() {
         <div className="antialiased">
 
             <div className="relative z-50"><Header /></div>
-            <FrontPage />
+            <Hero />
             <AboutUs />
             <TeamMembers />
 

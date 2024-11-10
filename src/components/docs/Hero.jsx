@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { Boxes } from "../../components/ui/background-boxes"
+import { Boxes } from "../ui/background-boxes"
 import Image from "next/image"
 import tradewebLogo from "../../../public/tradeweb.png"
 import janestreetLogo from "../../../public/janestreet.png"
@@ -8,7 +8,7 @@ import flowTradersLogo from "../../../public/flowtraders.png"
 import sigLogo from "../../../public/sig.png"
 import sacLogo from "../../../public/sac.png"
 
-const FrontPage = () => {
+const Hero = () => {
     const sponsors = [
         {
             id: 1,
@@ -65,9 +65,9 @@ const FrontPage = () => {
                 </h1>
 
                 <p className="mt-5 max-w-[50%] relative z-30 items-center bg-gradient-to-br from-slate-100 to-slate-300 py-4 bg-clip-text text-center font-bold tracking-tight text-transparent md:text-lg sm:text-base">
-                    "The beauty of chess is it can be whatever you want it to be. It transcends language, age, race,
+                    &ldquo;The beauty of chess is it can be whatever you want it to be. It transcends language, age, race,
                     religion, politics, gender, and socioeconomic background. Whatever your circumstances, anyone can
-                    enjoy a good fight to the death over the chess board."
+                    enjoy a good fight to the death over the chess board.&rdquo;
                     – Simon Williams
                 </p>
             </div>
@@ -99,4 +99,4 @@ const FrontPage = () => {
     )
 }
 
-export default FrontPage
+export default Hero

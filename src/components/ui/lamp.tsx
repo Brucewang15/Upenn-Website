@@ -3,13 +3,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
-
-
-// @ts-ignore
+// @ts-expect-error
 export const LampContainer = ({
-                                  children,
-                                  className
-                              }) => {
+    children,
+    className
+}: {
+    children: React.ReactNode;
+    className?: string;
+}) => {
     return (
         (<div
             className={cn(
