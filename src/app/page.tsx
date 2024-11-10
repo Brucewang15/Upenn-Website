@@ -6,7 +6,7 @@ import Header from "../components/docs/Header";
 import FrontPage from '../components/docs/FrontPage';
 import TeamMembers from '../components/docs/TeamMembers';
 import AboutUs from '../components/docs/AboutUs';
-
+    
 
 export default function Home() {
 
