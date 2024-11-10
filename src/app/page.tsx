@@ -14,11 +14,10 @@ export default function Home() {
         
         <div className="antialiased">
 
-            <div className="relative z-50"><Header></Header></div>
-
-            <FrontPage></FrontPage>
-            <AboutUs></AboutUs>
-            <TeamMembers></TeamMembers>
+            <div className="relative z-50"><Header /></div>
+            <FrontPage />
+            <AboutUs />
+            <TeamMembers />
 
         </div>
     </>
