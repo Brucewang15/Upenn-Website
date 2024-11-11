@@ -1,12 +1,12 @@
-import { motion } from "framer-motion"
-import { Boxes } from "../ui/background-boxes"
+// import { motion } from "framer-motion"
+import { Boxes } from "./ui/background-boxes"
 import Image from "next/image"
-import tradewebLogo from "../../../public/tradeweb.png"
-import janestreetLogo from "../../../public/janestreet.png"
-import dwrLogo from "../../../public/dwr.webp"
-import flowTradersLogo from "../../../public/flowtraders.png"
-import sigLogo from "../../../public/sig.png"
-import sacLogo from "../../../public/sac.png"
+import tradewebLogo from "/public/tradeweb.png"
+import janestreetLogo from "/public/janestreet.png"
+import dwrLogo from "/public/dwr.webp"
+import flowTradersLogo from "/public/flowtraders.png"
+import sigLogo from "/public/sig.png"
+import sacLogo from "/public/sac.png"
 
 const Hero = () => {
     const sponsors = [
