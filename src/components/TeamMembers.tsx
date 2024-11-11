@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
-import {EvervaultCard} from '../ui/evervault-card'
+import {EvervaultCard} from './ui/evervault-card'
+
 const TeamMembers = () => {
 
     const teamMembers = [
