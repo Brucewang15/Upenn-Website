@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import PennLogo from '/public/upenn-logo.png'
 
-const Header = () => {
+const Navbar = () => {
     const navItems = [
         { label: 'About', href: '/about' },
         { label: 'Team', href: '/team' },
@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <div className="flex justify-center z-50">
-            <div className="w-[80%] h-[80px] items-center mx-auto flex flex-row fixed px-5 justify-between rounded-2xl z-10 box-border" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
+            <div className="w-[80%] h-[80px] items-center mx-auto flex flex-row fixed px-5 justify-between rounded-2xl z-50 box-border" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
                 <div className="flex items-center h-[60px]">
                     <Link href="/">
                         <Image className="h-[50px] w-auto hover:cursor-pointer"
@@ -38,4 +38,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Navbar
