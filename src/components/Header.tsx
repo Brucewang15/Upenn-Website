@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import PennLogo from '/public/upenn-logo.png'
-import { ModeToggle } from '@/components/modeToggle'
 import MobileNav from './MobileNav'
 
 const Header = () => {
@@ -30,7 +29,7 @@ const Header = () => {
 
   return (
     <motion.header
-      className={`bg-background/30 fixed inset-x-0 top-4 z-40 mx-auto flex h-[60px] max-w-5xl items-center justify-between rounded-2xl px-8 shadow-sm saturate-100 backdrop-blur-[10px] transition-colors ${
+      className={`bg-background/30 fixed inset-x-0 top-4 z-40 mx-auto flex h-[70px] max-w-5xl items-center justify-between rounded-2xl px-8 shadow-sm saturate-100 backdrop-blur-[10px] transition-colors ${
         isScrolled ? 'bg-background/80' : ''
       }`}
       initial={{
@@ -47,13 +46,18 @@ const Header = () => {
         href='#skip-nav'
         className='bg-background focus-visible:ring-ring fixed left-4 top-4 -translate-y-20 rounded-sm border p-2 font-medium shadow-sm transition-transform focus-visible:translate-y-0 focus-visible:ring focus-visible:ring-offset-2'
       >
+        Skip to main content
       </a>
       <Link href='/' className='flex items-center justify-center'>
-        <Image src={PennLogo} alt="Logo" width={40} height={40} />
+        <Image src={PennLogo} alt="Logo" width={75} height={75} />
       </Link>
       <div className='flex items-center gap-2'>
+        <div className="hidden md:block">
           <Navbar />
+        </div>
+        <div className="block md:hidden">
           <MobileNav />
+        </div>
       </div>
     </motion.header>
   )
