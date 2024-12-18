@@ -8,12 +8,10 @@ import AboutUs from '@/components/AboutUs';
 export default function Home() {
 
     return (
-        <>
-            <main>
-                <Hero />
-                <AboutUs />
-                <TeamMembers />
-            </main>
-        </>
+        <main>
+            <Hero />
+            <AboutUs />
+            <TeamMembers />
+        </main>
     )
 }
